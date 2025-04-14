@@ -150,7 +150,15 @@ random > 100
 //: alert('you cant drive')
 
 
-let live = prompt('enter your age')
-const anno = 365.25*24*60*60
-console.log(`Hai vissuto ${Number(live)*anno} secondi`)
-if (Number(live)*anno > 1000) console.log('grande!')
+//let live = prompt('enter your age')
+//const anno = 365.25*24*60*60
+//console.log(`Hai vissuto ${Number(live)*anno} secondi`)
+//if (Number(live)*anno > 1000) console.log('grande!');
+
+
+let youtube = prompt('inserisci VISUAL mensili')
+let reparto = prompt ('inserisci il tuo settore tra gaming, finanza o altro')
+const guadagno = (Number(youtube)/1000)
+if (reparto == 'gaming') console.log(guadagno*3.5);
+if (reparto == 'finanza') console.log(guadagno*6);
+if (reparto == 'altro') console.log(guadagno*3)
