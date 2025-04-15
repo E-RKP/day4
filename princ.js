@@ -161,4 +161,11 @@ let reparto = prompt ('inserisci il tuo settore tra gaming, finanza o altro')
 const guadagno = (Number(youtube)/1000)
 if (reparto == 'gaming') console.log(guadagno*3.5);
 if (reparto == 'finanza') console.log(guadagno*6);
-if (reparto == 'altro') console.log(guadagno*3)
+if (reparto == 'altro') console.log(guadagno*3);
+
+
+
+let tempo = prompt ('inserisci età')
+resultante = tempo*365*24*60*60
+console.log(`Hai vissuto ${resultante}secondi`)
+resultante > 1000 ? 'grande' :'coglione'
